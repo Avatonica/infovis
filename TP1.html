@@ -6,13 +6,23 @@
   <meta name="viewport" content="width=device-width">
   <title>Clase 27/10</title>
  <style>
-        body {
-            background-image: url('https://getwallpapers.com/image/eyJpdiI6IjJ4clB5OWF5K3dnWjZIK2IyeU1OR1E9PSIsInZhbHVlIjoiTUhLT2NRY0xyYWRvdlFLb1wvOXNyS2c9PSIsIm1hYyI6IjQ4M2YwMWNlY2JjNDY3ZmMyY2FmNTVkZjdjNDUwYTc4MmNkMzBiMWZmMzIzNWJiZjFlZGI0ZWU2ODEyYTI0MWMifQ==');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
+         body {
+            background: linear-gradient(45deg, #5AC8FA, #007AFF);
+            background-size: 200% 200%;
+            animation: gradientAnimation 4s infinite;
         }
 
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
        
     </style>
 </head>
